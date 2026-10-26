@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картка продукту</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="max-w-sm bg-white rounded-xl shadow-md overflow-hidden p-4 relative">
+
+        <div class="relative aspect-[16/9] w-full overflow-hidden rounded-lg bg-gray-200">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+                alt="Продукт" class="object-cover w-full h-full">
+
+            <span
+                class="absolute top-2 left-2 bg-emerald-500 text-white text-xs font-semibold px-2.5 py-1 rounded-md shadow">
+                Новинка
+            </span>
+        </div>
+
+        <div class="mt-4">
+            <h3 class="text-lg font-bold text-gray-800">Стильний наручний годинник</h3>
+
+            <div class="flex items-center space-x-3 mt-2">
+                <span class="text-sm text-gray-400 line-through">1 500 грн</span>
+                <span class="text-xl font-bold text-indigo-600">1 200 грн</span>
+            </div>
+
+            <button
+                class="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2.5 px-4 rounded-lg transition duration-200">
+                В кошик
+            </button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
